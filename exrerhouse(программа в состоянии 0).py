@@ -5,6 +5,8 @@ width, height = screen_size = (300, 200)
 screen = pygame.display.set_mode(screen_size)
 
 #Здесь нужно рисовать
+draw_picture(screen, 0,0, width, height)
+
 
 pygame.display.update()
 
